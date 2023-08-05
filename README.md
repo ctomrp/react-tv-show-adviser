@@ -68,3 +68,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+### Environment variables
+
+Before testing this code, you must to set an .env file in your project, named REACT_APP_API_KEY_PARAM.
+You can get your api_key from [https://www.themoviedb.org/](https://www.themoviedb.org/)
