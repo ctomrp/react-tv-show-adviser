@@ -17,3 +17,17 @@
 .recommended_tv_shows{
     flex: 2;
 }
+
+.searchBar{
+    box-shadow: 0 0 15px rgba(0,0,0,0.8);
+    width: 100%;
+}
+
+::-webkit-scrollbar{
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb:horizontal{
+    background: rgba(0,0,0,0.61);
+    border-radius: 10px;
+}
