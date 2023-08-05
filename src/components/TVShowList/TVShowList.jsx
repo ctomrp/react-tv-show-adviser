@@ -9,9 +9,7 @@ export function TVShowList({ tvShowList, onClickItem }) {
         {tvShowList.map((tvShow) => {
           return (
             <span className={s.tv_show_item} key={tvShow.id}>
-              <TVShowListItem 
-              tvShow={tvShow} 
-              onClick={onClickItem} />
+              <TVShowListItem tvShow={tvShow} onClick={onClickItem} />
             </span>
           );
         })}

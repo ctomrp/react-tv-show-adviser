@@ -2,7 +2,7 @@ import { FiveStarRating } from "../FiveStarRating/FiveStarRating";
 import s from "./style.module.css";
 
 export function TVShowDetail({ tvShow }) {
-    const rating = (tvShow.vote_average / 2).toFixed(1);
+  const rating = (tvShow.vote_average / 2).toFixed(1);
   return (
     <div>
       <div className={s.title}>{tvShow.name}</div>
